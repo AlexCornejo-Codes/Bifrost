@@ -8,19 +8,21 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     
-    <!-- Package Metadata -->
+    <!-- NuGet metadata -->
     <PackageId>Bifrost.DataShaping</PackageId>
     <Version>1.0.0-preview.1</Version>
     <Authors>Alex Cornejo</Authors>
     <Company>Bifrost</Company>
-    <Description>
-      Lightweight utilities for shaping API responses dynamically in .NET.
-    </Description>
+    <Description>Lightweight utilities for shaping API responses dynamically in .NET.</Description>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/AlexCornejo-Codes/bifrost</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-
+	  
+	<!-- XML Documentation -->
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn);1591</NoWarn>
+	  
     <!-- Packaging -->
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>

@@ -4,6 +4,9 @@ using System.Reflection;
 
 namespace Bifrost.DataShaping;
 
+/// <summary>
+/// Default implementation of <see cref="IDataShaper"/>.
+/// </summary>
 public sealed class DataShaper : IDataShaper
 {
     private static readonly ConcurrentDictionary<Type, PropertyInfo[]> PropertyCache = new();
