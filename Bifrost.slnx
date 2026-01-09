@@ -1,1 +1,3 @@
-<Solution />
+<Solution>
+  <Project Path="Bifrost.DataShaping/Bifrost.DataShaping.csproj" />
+</Solution>
