@@ -1,4 +1,5 @@
 Bifrost 🌈
+> 🚧 **Status:** Active development (preview)
 
 Bifrost is a lightweight .NET toolkit for building clean, flexible REST APIs.
 
