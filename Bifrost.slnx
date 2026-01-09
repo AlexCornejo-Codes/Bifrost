@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Bifrost.DataShaping.Tests/Bifrost.DataShaping.Tests.csproj" Id="0eba8e3d-0dce-4b08-9d26-08f38b76912e" />
   <Project Path="Bifrost.DataShaping/Bifrost.DataShaping.csproj" />
 </Solution>
