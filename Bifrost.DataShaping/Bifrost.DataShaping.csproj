@@ -9,7 +9,7 @@
     <Nullable>enable</Nullable>
     
     <!-- NuGet metadata -->
-    <PackageId>Bifrost.DataShaping</PackageId>
+    <PackageId>AC.Bifrost.DataShaping</PackageId>
     <Version>1.0.0-preview.1</Version>
     <Authors>Alex Cornejo</Authors>
     <Company>Bifrost</Company>
