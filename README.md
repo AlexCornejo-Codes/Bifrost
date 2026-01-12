@@ -28,6 +28,9 @@ This helps reduce over-fetching and keeps responses lightweight.
 Provides a declarative and safe way to apply dynamic sorting to `IQueryable` queries.
 Sorting rules are defined explicitly through mappings, avoiding fragile string-based ordering.
 
+> ℹ️ Internally, this package uses `System.Linq.Dynamic.Core` to enable string-based sorting expressions.  
+> The dependency is included automatically via NuGet—no additional setup is required.
+
 **Key features:**
 
 * Dynamic sorting via query strings
