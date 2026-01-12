@@ -1,9 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <!-- Target frameworks -->
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        
+        <!-- Build settings -->
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        
+        <!-- NuGet metadata -->
+        <PackageId>AC.Bifrost.Sorting</PackageId>
+        <Version>1.0.0-preview.1</Version>
+        <Authors>Alex Cornejo</Authors>
+        <Company>Bifrost</Company>
+        <Description>Lightweight utilities for sorting API responses dynamically in .NET.</Description>
+
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/AlexCornejo-Codes/bifrost</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+
+        <!-- XML Documentation -->
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+
+        <!-- Packaging -->
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
