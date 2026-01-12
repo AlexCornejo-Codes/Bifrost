@@ -13,7 +13,7 @@
         <Version>1.0.0-preview.1</Version>
         <Authors>Alex Cornejo</Authors>
         <Company>Bifrost</Company>
-        <Description>Lightweight utilities for sorting API responses dynamically in .NET.</Description>
+        <Description>Lightweight utilities for applying safe, declarative sorting to IQueryable queries in .NET.</Description>
 
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/AlexCornejo-Codes/bifrost</RepositoryUrl>
@@ -23,10 +23,19 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <NoWarn>$(NoWarn);1591</NoWarn>
 
+        <!-- NuGet README -->
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+
         <!-- Packaging -->
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     </PropertyGroup>
 
+    <!-- Include root README.md in the NuGet package -->
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <!-- Dependencies -->
     <ItemGroup>
       <PackageReference Include="System.Linq.Dynamic.Core" Version="1.6.0.1" />
     </ItemGroup>
