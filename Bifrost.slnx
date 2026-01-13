@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="Bifrost.DataShaping.Tests/Bifrost.DataShaping.Tests.csproj" Id="0eba8e3d-0dce-4b08-9d26-08f38b76912e" />
   <Project Path="Bifrost.DataShaping/Bifrost.DataShaping.csproj" />
+  <Project Path="Bifrost.Pagination.Tests/Bifrost.Pagination.Tests.csproj" Id="612e2fac-99c7-4e27-8275-36ab1872994f" />
+  <Project Path="Bifrost.Pagination/Bifrost.Pagination.csproj" Id="d37715e0-7e36-4c28-bb7b-36ee0eaa878a" />
   <Project Path="Bifrost.Sorting.Tests/Bifrost.Sorting.Tests.csproj" Id="aed9fa57-f534-4ee8-9c8b-9387cf91790c" />
   <Project Path="Bifrost.Sorting/Bifrost.Sorting.csproj" />
 </Solution>
