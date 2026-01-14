@@ -15,9 +15,9 @@ All Bifrost packages are published on NuGet under the `AC.Bifrost.*` prefix.
 Install only the packages you need:
 
 ```bash
-dotnet add package AC.Bifrost.DataShaping
-dotnet add package AC.Bifrost.Sorting
-dotnet add package AC.Bifrost.Pagination
+dotnet add package AC.Bifrost.DataShaping --version 1.0.0
+dotnet add package AC.Bifrost.Sorting --version 1.0.0
+dotnet add package AC.Bifrost.Pagination --version 1.0.0
 ```
 
 Each package is independent and can be used on its own or composed together as part of a single API pipeline.
