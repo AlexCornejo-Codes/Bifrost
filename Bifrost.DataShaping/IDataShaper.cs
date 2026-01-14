@@ -32,7 +32,7 @@ namespace Bifrost.DataShaping
         /// If null or empty, all public properties are included.
         /// </param>
         /// <returns>A collection of dynamically shaped objects.</returns>
-        IReadOnlyList<ExpandoObject> ShapeCollection<T>(
+        List<ExpandoObject> ShapeCollection<T>(
             IEnumerable<T> sources,
             string? fieldList);
 

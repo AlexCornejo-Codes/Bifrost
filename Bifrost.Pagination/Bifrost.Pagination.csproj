@@ -9,8 +9,8 @@
     <Nullable>enable</Nullable>
 
     <!-- NuGet metadata -->
-    <PackageId>AC.Bifrost.Sorting</PackageId>
-    <Version>1.0.0-preview.1</Version>
+    <PackageId>AC.Bifrost.Pagination</PackageId>
+    <Version>1.0.0</Version>
     <Authors>Alex Cornejo</Authors>
     <Company>Bifrost</Company>
     <Description>Lightweight utilities for representing paginated API responses in .NET.</Description>

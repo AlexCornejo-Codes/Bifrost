@@ -24,7 +24,7 @@ public sealed class DataShaper : IDataShaper
         return (ExpandoObject)result;
     }
 
-    public IReadOnlyList<ExpandoObject> ShapeCollection<T>(IEnumerable<T> sources, string? fieldList)
+    public List<ExpandoObject> ShapeCollection<T>(IEnumerable<T> sources, string? fieldList)
     {
         var properties = ResolveProperties(typeof(T), fieldList);
         var shapedItems = new List<ExpandoObject>();
